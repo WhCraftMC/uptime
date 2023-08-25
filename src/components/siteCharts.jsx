@@ -38,37 +38,24 @@ const SiteCharts = ({ siteDetails }) => {
         {siteDetails.status !== "ok" ? (
           siteDetails.average >= 70 ? (
             <Alert
-              message="当前站点出现异常，请检查站点状态"
+              message="当前站点出现异常"
               type="warning"
               showIcon
             />
           ) : (
             <Alert
-              message="当前站点持续异常，请立即检查站点状态或从监控项目中删除"
+              message="当前站点持续异常"
               type="error"
               showIcon
             />
           )
         ) : (
           <Alert
-            message="当前站点状态正常，请继续保持哦"
+            message="当前站点状态正常"
             type="success"
             showIcon
           />
         )}
-        <div className="all">
-          <Line {...chartConfig} />
-          <Collapse
-            style={{ marginTop: "20px" }}
-            items={[
-              {
-                key: "all-data",
-                label: "站点详情初始数据",
-                children: <p>{JSON.stringify(siteDetails)}</p>,
-              },
-            ]}
-          />
-        </div>
       </div>
     </MacScrollbar>
   );
