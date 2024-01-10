@@ -43,17 +43,17 @@ body {
       height: 100%;
       z-index: -1;
       &.loading {
-        background: linear-gradient(to right, #00bbff 0%, #0088ff 100%);
+        background: rgba(#0088ff, 0.725);
       }
       &.error {
-        background: linear-gradient(to right, #e47e7e 0%, #ee5555 100%);
+        background: rgba(#ee5555, 0.725);
       }
       &.allError,
       &.wrong {
-        background: linear-gradient(to right, #ee5555 0%, #ff2b2b 100%);
+        background: rgba(#ff2b2b, 0.725);
       }
       &.normal {
-        background: linear-gradient(to right, #4fd69c 0%, #24a66e 100%);
+        background: rgba(#24a66e, 0.725);
       }
     }
     .container {
