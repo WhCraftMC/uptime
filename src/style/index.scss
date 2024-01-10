@@ -52,7 +52,7 @@ body::before {
       left: 0;
       height: 100%;
       z-index: -1;
-      &.loading {
+      /*&.loading {
         background: rgba(0, 136, 255, 0.725);
       }
       &.error {
@@ -64,7 +64,7 @@ body::before {
       }
       &.normal {
         background: rgba(36, 166, 110, 0.725);
-      }
+      }*/
     }
     .container {
       height: 100%;
