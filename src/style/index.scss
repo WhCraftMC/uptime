@@ -43,14 +43,14 @@ body {
       height: 100%;
       z-index: -1;
       &.loading {
-        background: rgba(#0088ff, 0.725);
+        background: rgba(0,136,255, 0.725);
       }
       &.error {
-        background: rgba(#ee5555, 0.725);
+        background: rgba(238,85,85, 0.725);
       }
       &.allError,
       &.wrong {
-        background: rgba(#ff2b2b, 0.725);
+        background: rgba(255,43,43, 0.725);
       }
       &.normal {
         background: rgba(#24a66e, 0.725);
