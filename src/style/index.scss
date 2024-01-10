@@ -1,7 +1,7 @@
 $main-background: #ffffff;
 $main-hover-color: #efefef;
 $primary-color: #3bd672;
-$secondary-color: #747474;
+$secondary-color: #ffffff;
 $normal-color: #63ffbd;
 $normal-background-color: #3bd672;
 $error-color: #ff9595;
@@ -405,7 +405,9 @@ body::before {
       text-align: center;
       font-size: 13px;
       line-height: 26px;
+      color: $secondary-color;
       .link {
+        color: $secondary-color;
         font-weight: bold;
         transition: color 0.3s;
         cursor: pointer;
