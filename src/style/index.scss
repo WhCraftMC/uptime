@@ -25,15 +25,7 @@ body {
   font-family: "HarmonyOS_Regular", sans-serif;
 }
 
-body::before {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.25);
-}
+
 
 #root {
   width: 100%;
@@ -379,7 +371,7 @@ body::before {
               flex-direction: row;
               justify-content: space-between;
               align-items: center;
-              color: $secondary-color;
+              color: #787976;
               font-size: 13px;
               @media (max-width: 768px) {
                 .now,
